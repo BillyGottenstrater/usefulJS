@@ -1,3 +1,4 @@
+// Used https://github.com/imathis/hsl-picker/blob/master/assets/javascripts/modules/color.coffee to figure out HSL Stuff.
 function rgbToHsl(r, g, b){
     r /= 255, g /= 255, b /= 255;
     var max = Math.max(r, g, b), min = Math.min(r, g, b);
